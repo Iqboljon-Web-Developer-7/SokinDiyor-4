@@ -148,7 +148,7 @@ body {
   align-items: flex-start;
 }
 
-.feature-key-svg {
+.feature-icon-svg {
   width: clamp(21px, 6.6vw, 28px);
   height: clamp(21px, 6.6vw, 28px);
   flex-shrink: 0;
