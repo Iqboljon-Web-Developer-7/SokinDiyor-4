@@ -207,6 +207,46 @@ body {
   z-index: 3;
 }
 
+/* Event Banner v4 */
+.event-banner-v4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto 24px auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 18px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 10;
+  width: fit-content;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.event-banner-v4 .event-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: clamp(11px, 3.5vw, 13px);
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.event-banner-v4 .event-icon {
+  width: 16px;
+  height: 16px;
+  color: #ffcc00;
+  flex-shrink: 0;
+}
+
+.event-banner-v4 .event-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
 /* CTA Button */
 .cta-button {
   display: block;
